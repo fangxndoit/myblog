@@ -11,7 +11,7 @@ const files = ['foo.txt ','.bar','  ','baz.foo'];
 let filePath = [];
 for (let file of files) {
 	const fileName = file.trim();
-  
 }
+//1,1
 ```
 
