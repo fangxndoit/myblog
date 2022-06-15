@@ -79,5 +79,5 @@ theme: fluid
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://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@github.com/fangxndoit/fangxndoit.github.io.git
+  repo: https://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@github.com/fangxndoit/fangxndoit.github.io.git
   branch: master
