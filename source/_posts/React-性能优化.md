@@ -6,7 +6,7 @@ tags:
 
 #### `shouldComponentUpdate`
 
-```react
+```js
 class MyComponent extends React.Component{
   shouldComponentUpdate(nextProps){
     return nextProps.value !== this.props.value
@@ -19,7 +19,7 @@ class MyComponent extends React.Component{
 }
 ```
 
-####`React Hooks`
+#### `React Hooks`
 
 ```react
 function SomeComp({prop1, prop2}) {

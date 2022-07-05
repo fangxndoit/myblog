@@ -4,6 +4,8 @@ date: 2020-09-21 17:16:26
 tags: js
 ---
 
+#### 工具函数
+
 ```js
 //to.js
 export default function to(promise){
@@ -14,9 +16,9 @@ export default function to(promise){
 }
 ```
 
-#####工具函数
 
-#####使用方法
+
+#### 使用方法
 
 ```js
 import to from './to.js';
