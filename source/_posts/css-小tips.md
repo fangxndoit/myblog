@@ -28,3 +28,27 @@ tags:
 }
 ```
 
+#### 下载`normalize`
+
+```
+npm install normalize.css
+```
+
+#### `input`
+
+```css
+display: block;
+border: none;
+outline: none;
+background: none;
+```
+
+#### 设配
+
+```js
+var width = document.documentElement.clientWidth || document.body.clientWidth;
+var ratio = width / 375;
+var fonstSize = 100 * ratio;
+document.getElementsByTagName('html')[0].style['font-size'] = fonstSize + 'px';
+```
+
